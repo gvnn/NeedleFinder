@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeedleFinder.Utils", "NeedleFinder.Utils\NeedleFinder.Utils.csproj", "{1F1C5836-DF69-41DE-B397-16AC84FEC08C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeedleFinder", "NeedleFinder\NeedleFinder.csproj", "{D01758AA-84D8-48DB-934B-982599C1513B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeedleFinder.UnitTest", "NeedleFinder.UnitTest\NeedleFinder.UnitTest.csproj", "{1510554D-C5C8-4D27-A1E6-7C5E52F2DCBC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6C0F8EAE-E1D4-49A4-A2E3-21E6C7FD2B93}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		NeedleFinder.vsmdi = NeedleFinder.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = NeedleFinder.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F1C5836-DF69-41DE-B397-16AC84FEC08C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F1C5836-DF69-41DE-B397-16AC84FEC08C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F1C5836-DF69-41DE-B397-16AC84FEC08C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{1F1C5836-DF69-41DE-B397-16AC84FEC08C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{1F1C5836-DF69-41DE-B397-16AC84FEC08C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1F1C5836-DF69-41DE-B397-16AC84FEC08C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F1C5836-DF69-41DE-B397-16AC84FEC08C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F1C5836-DF69-41DE-B397-16AC84FEC08C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{1F1C5836-DF69-41DE-B397-16AC84FEC08C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{1F1C5836-DF69-41DE-B397-16AC84FEC08C}.Release|x86.ActiveCfg = Release|Any CPU
+		{D01758AA-84D8-48DB-934B-982599C1513B}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{D01758AA-84D8-48DB-934B-982599C1513B}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{D01758AA-84D8-48DB-934B-982599C1513B}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{D01758AA-84D8-48DB-934B-982599C1513B}.Debug|x86.ActiveCfg = Debug|x86
+		{D01758AA-84D8-48DB-934B-982599C1513B}.Debug|x86.Build.0 = Debug|x86
+		{D01758AA-84D8-48DB-934B-982599C1513B}.Release|Any CPU.ActiveCfg = Release|x86
+		{D01758AA-84D8-48DB-934B-982599C1513B}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{D01758AA-84D8-48DB-934B-982599C1513B}.Release|Mixed Platforms.Build.0 = Release|x86
+		{D01758AA-84D8-48DB-934B-982599C1513B}.Release|x86.ActiveCfg = Release|x86
+		{D01758AA-84D8-48DB-934B-982599C1513B}.Release|x86.Build.0 = Release|x86
+		{1510554D-C5C8-4D27-A1E6-7C5E52F2DCBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1510554D-C5C8-4D27-A1E6-7C5E52F2DCBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1510554D-C5C8-4D27-A1E6-7C5E52F2DCBC}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{1510554D-C5C8-4D27-A1E6-7C5E52F2DCBC}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{1510554D-C5C8-4D27-A1E6-7C5E52F2DCBC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1510554D-C5C8-4D27-A1E6-7C5E52F2DCBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1510554D-C5C8-4D27-A1E6-7C5E52F2DCBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1510554D-C5C8-4D27-A1E6-7C5E52F2DCBC}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{1510554D-C5C8-4D27-A1E6-7C5E52F2DCBC}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{1510554D-C5C8-4D27-A1E6-7C5E52F2DCBC}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = NeedleFinder.Console\NeedleFinder.Console.csproj
+	EndGlobalSection
+EndGlobal
